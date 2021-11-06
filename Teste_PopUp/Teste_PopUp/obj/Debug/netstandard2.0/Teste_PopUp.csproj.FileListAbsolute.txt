@@ -1,0 +1,13 @@
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\Teste_PopUp.csprojAssemblyReference.cache
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\Teste_PopUp.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\Teste_PopUp.AssemblyInfo.cs
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\Teste_PopUp.dll
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\ref\Teste_PopUp.dll
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\Teste_PopUp.pdb
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\bin\Debug\netstandard2.0\Teste_PopUp.deps.json
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\bin\Debug\netstandard2.0\Teste_PopUp.dll
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\bin\Debug\netstandard2.0\ref\Teste_PopUp.dll
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\bin\Debug\netstandard2.0\Teste_PopUp.pdb
+C:\Users\henri\Desktop\Teste_PopUp\Teste_PopUp\obj\Debug\netstandard2.0\XamlC.stamp

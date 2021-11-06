@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #658BC2;
+}
+
+body h1 {
+    margin: 1em;
+    text-align: center;
+    color: #ffffff;
+}
+
+#container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 550px;
+    height: 350px;
+}
+
+#container input[type=text] {
+    width: 150px;
+    height: 30px;
+    margin: 0.7em;
+}
+
+#container input[type=submit] {
+    width: 70px;
+    height: 30px;
+    margin: 0.7em;
+    border-radius: 5px;
+    background-color: #C2860E;
+    color: #ffffff;
+    outline: none;
+}
+
+.rub {
+    display: flex;
+    justify-content: center;
+}
+
+#alinha {
+    display: flex;
+    justify-content: center;
+}
+
+#campos select {
+    border-radius: 4px;
+    border: 1px solid #111111;
+    margin: 0 0 0 1em;
+    width: 200px;
+    height: 270px;
+    font-size: 18px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Index.js"></script>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <title>Exercicios de Javascript</title>
+</head>
+
+<body>
+    <h1 id="col">Javascript Pessoa</h1>
+    <div id="cont">
+        <div id="container">
+            <ul id="menu">
+                <li onclick="MostrarObjeto()">Ver Objeto</li>
+                <li onclick="Create()">Cria Objeto</li>
+                <li onclick="caminhar()">Caminhar</li>
+                <li onclick="parar()">Parar de Caminhar</li>
+                <li onclick="ExibirName()">Mostrar Nome Completo</li>
+                <li onclick="ExibirIdade()">Mostrar Idade</li>
+                <li onclick="ExibirPeso()">Mostrar Peso</li>
+                <li onclick="ExibirAltura()">Mostrar Altura</li>
+                <li onclick="Exibirapresentacao()">Apresentação</li>
+            </ul>
+            <div id="example" class="close"></div>
+
+            <div id="create" class="close">
+                <div id="inputs">
+                    <h3>Cria Pessoa</h3>
+                    <input type="text" placeholder="Nome" id="p1">
+                    <input type="text" placeholder="Sobrenome" id="p2">
+
+                    <div id="plex">
+                        <input type="radio" value="Feminino" name="run">
+                        <label for="run">Feminino</label>
+                        <input type="radio" value="Masculino" name="run">
+                        <label for="run">Masculino</label>
+                    </div>
+
+                    <input type="text" placeholder="Idade" id="p3">
+                    <input type="text" placeholder="Altura" id="p4">
+                    <input type="text" placeholder="Peso" id="p5">
+                    <input type="submit" onclick="adiciona()">
+                </div>
+            </div>
+
+            <div id="mostraNome" class="close"></div>
+            <div id="mostraIdade" class="close"></div>
+            <div id="mostraPeso" class="close"></div>
+            <div id="mostraAltura" class="close"></div>
+            <div id="apresentacao" class="close"></div>
+
+            <div id="certo" class="close">
+                <h3>Metros caminhados</h3>
+                <input type="text" id="running" placeholder="Caminhou quantos metros?">
+                <input type="submit" id="botao">
+            </div>
+            <div id="caminhar" class="close">
+
+                <div id="chegada">
+                    <img src="chegada.png" alt="">
+                </div>
+
+                <div id="anime">
+                    <canvas id="myCanvas" width="905" height="178"></canvas>
+                    <div id="anima"></div>
+                </div>
+            </div>
+
+            <div id="parar" class="close">
+
+                <div id="chegada">
+                    <img src="chegada.png" alt="">
+                </div>
+
+                <div id="anime">
+                    <canvas id="ruben" width="905" height="178"></canvas>
+                    <div id="anima"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

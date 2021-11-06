@@ -1,0 +1,14 @@
+C:\Users\henri\Desktop\Xamarin\bin\Debug\Xamarin.exe.config
+C:\Users\henri\Desktop\Xamarin\bin\Debug\Xamarin.exe
+C:\Users\henri\Desktop\Xamarin\bin\Debug\Xamarin.pdb
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.csprojAssemblyReference.cache
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.Form1.resources
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.FrmSplash.resources
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.Properties.Resources.resources
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.csproj.GenerateResource.cache
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.exe
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.pdb
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.FrmCadastro.resources
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.FrmAviso.resources
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.FrmListaUsuario.resources
+C:\Users\henri\Desktop\Xamarin\obj\Debug\Xamarin.FrmPrincipal.resources

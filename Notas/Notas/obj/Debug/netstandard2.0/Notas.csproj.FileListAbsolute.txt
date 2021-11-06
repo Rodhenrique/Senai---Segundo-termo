@@ -1,0 +1,15 @@
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\Notas.csprojAssemblyReference.cache
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\Views\NoteEntryPage.xaml.g.cs
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\Notas.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\Notas.AssemblyInfo.cs
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\Notas.dll
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\ref\Notas.dll
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\Notas.pdb
+C:\Users\henri\Desktop\Notas\Notas\bin\Debug\netstandard2.0\Notas.deps.json
+C:\Users\henri\Desktop\Notas\Notas\bin\Debug\netstandard2.0\Notas.dll
+C:\Users\henri\Desktop\Notas\Notas\bin\Debug\netstandard2.0\ref\Notas.dll
+C:\Users\henri\Desktop\Notas\Notas\bin\Debug\netstandard2.0\Notas.pdb
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\henri\Desktop\Notas\Notas\obj\Debug\netstandard2.0\Views\NotePage.xaml.g.cs

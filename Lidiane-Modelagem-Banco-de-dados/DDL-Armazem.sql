@@ -1,0 +1,55 @@
+CREATE DATABASE DbArmazem;
+
+USE DbArmazem;
+
+CREATE TABLE Categorias(
+	IdCategoria INT PRIMARY KEY IDENTITY,
+	Titulo VARCHAR(255) NOT NULL UNIQUE
+);
+
+CREATE TABLE Fornecedores(
+	IdFornecedor INT PRIMARY KEY IDENTITY,
+	Nome VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Lojistas(
+	IdLojista INT PRIMARY KEY IDENTITY,
+	Nome VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Transportadoras(
+	IdTransportadora INT PRIMARY KEY IDENTITY,
+	Titulo VARCHAR(255) NOT NULL,
+	CNPJ CHAR(14) NOT NULL
+);
+
+
+CREATE TABLE Pedidos(
+	IdPedido INT PRIMARY KEY IDENTITY,
+	Titulo VARCHAR(255) NOT NULL,
+	DataDoPedido DATETIME2 NOT NULL,
+	DataDeEntrega DATETIME2 NOT NULL,
+	NumeroDoLote INT,
+	IdTransportadora INT FOREIGN KEY REFERENCES Transportadoras(IdTransportadora) NOT NULL,
+	IdCategoria INT FOREIGN KEY REFERENCES Categorias(IdCategoria) NOT NULL,
+	IdFornecedor INT FOREIGN KEY REFERENCES Fornecedores(IdFornecedor) NOT NULL
+);
+
+CREATE TABLE Produtos(
+	IdProduto INT PRIMARY KEY IDENTITY,
+	Titulo VARCHAR(255) NOT NULL,
+	QuantidadeAtual BIGINT NOT NULL,
+	QuantidadeMinima BIGINT NOT NULL,
+	IdPedido INT FOREIGN KEY REFERENCES Pedidos(IdPedido) NOT NULL,
+	IdCategoria INT FOREIGN KEY REFERENCES Categorias(IdCategoria) NOT NULL,
+	IdFornecedor INT FOREIGN KEY REFERENCES Fornecedores(IdFornecedor) NOT NULL
+);
+
+CREATE TABLE Historico(
+	IdHistorico INT PRIMARY KEY IDENTITY,
+	QuantidadeDoProduto BIGINT NOT NULL,
+	DataDeSaida DATETIME2 NOT NULL,
+	IdTransportadora INT FOREIGN KEY REFERENCES Transportadoras(IdTransportadora) NOT NULL,
+	IdProduto INT FOREIGN KEY REFERENCES Produtos(IdProduto) NOT NULL,
+	IdLojista INT FOREIGN KEY REFERENCES Lojistas(IdLojista) NOT NULL
+);
